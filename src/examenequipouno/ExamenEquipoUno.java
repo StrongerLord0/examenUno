@@ -1,7 +1,7 @@
 /*
  * Programacion Orientada a Objetos
  * Examen Equipo 1 | Unidad 2 
- * Docente: Juana Garcia Señez
+ * Docente: Juana Garcia Seañez
  * Integrantes: Alvarez Gutierrez Arturo Misael
                 *Corral Quezada Adrian
                 *Gerard Ramos Elian Ramiro
