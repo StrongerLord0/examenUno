@@ -5,6 +5,7 @@ import java.util.Scanner;
 
 public class Operaciones {
     
+    // Encapsulamiento propio de la herencia
     protected double valorUno, valorDos, resultado;
     Scanner sc = new Scanner(System.in);
     

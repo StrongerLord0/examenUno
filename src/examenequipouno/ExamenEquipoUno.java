@@ -12,23 +12,26 @@ public class ExamenEquipoUno {
 
     public static void main(String[] args) {
        
+        // Instanciacion de clase
         Scanner sc = new Scanner (System.in);
         Suma men1 = new Suma();
         Resta men2 = new Resta();
         Multiplicacion men3 = new Multiplicacion();
+        cadenaTexto obj = new cadenaTexto();
         
         System.out.println("Ingresa la opcion que mas te interese:\n"
                 + "1. Realizar una suma de dos valores\n"
                 + "2. Realizar una resta de dos valores\n"
                 + "3. Realizar una tabla de multiplicar\n"
                 + "4. Realizar una operacion extra\n"
-                + "5. Salir del sistema.");
+                + "5. Funcion extra\n"
+                + "6. Salir del sistema.");
         
         int Opcion = sc.nextInt();
         
         switch(Opcion){
             case 1:
-                    men1.ingresarDatos();
+                    men1.ingresarDatos(); 
                     men1.Operacion();
                     men1.mostrarResultado();
                     break;
@@ -56,7 +59,7 @@ public class ExamenEquipoUno {
                     
                     switch(minimenu){
                         case 1:
-                            men4.Division(vUno, vDos);
+                            men4.Division(vUno, vDos); 
                             break;
                         case 2:
                             men4.Division(vUno);
@@ -69,7 +72,11 @@ public class ExamenEquipoUno {
                     }
                     break;
             case 5:
-                    System.exit(0);
+                    String[] txt = new String[1];
+                    obj.cadenaTexto(txt);
+                    System.out.println("La cadena de texto es: " + txt[0]); // Parametros por referencia
+            case 6:
+                    System.exit(0); // Manera de apreciar un destructor.
                     break;
             default:
                     System.out.println("Ingresa opcion valida.");
