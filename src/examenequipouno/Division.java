@@ -12,6 +12,12 @@ public class Division {
         this.v2 = vDos;
     }
     
+    public Division(double vUno, double vDos, double resultado){
+        this.v1=vUno;
+        this.v2=vDos;
+        this.res=resultado;
+    }
+    
     // Representación de la sobrecarga de metodos.
     // Paso de parametros.
     public void Division(double v1, double v2){
