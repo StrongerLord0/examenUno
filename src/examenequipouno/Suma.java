@@ -1,6 +1,10 @@
 
 package examenequipouno;
 
-public class Suma {
+public class Suma extends Operaciones {
+    
+    public void Operacion(){
+        resultado = valorUno + valorDos;
+    }
     
 }
