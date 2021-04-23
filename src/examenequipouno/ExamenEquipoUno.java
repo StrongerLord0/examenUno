@@ -2,7 +2,13 @@
  * Programacion Orientada a Objetos
  * Examen Equipo 1 | Unidad 2 
  * Docente: Juana Garcia Saenz
- * Integrantes: Najera Roman Roman
+ * Integrantes: Alvarez Gutierrez Arturo Misael
+                Corral Quezada Adrian
+                Gerard Ramos Elian Ramiro
+                Gil Najera Karen Vanessa
+                Najera Ruiz Roman
+                Salazar Campos Jesus Adan
+                
  */
 package examenequipouno;
 import java.util.Scanner;
