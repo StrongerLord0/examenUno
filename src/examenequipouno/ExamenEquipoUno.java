@@ -5,7 +5,6 @@
  * Integrantes: Najera Roman Roman
  */
 package examenequipouno;
-//21454654621321321
 import java.util.Scanner;
 
 public class ExamenEquipoUno {
