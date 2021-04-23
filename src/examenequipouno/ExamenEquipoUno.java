@@ -2,9 +2,10 @@
  * Programacion Orientada a Objetos
  * Examen Equipo 1 | Unidad 2 
  * Docente: Juana Garcia Saenz
+ * Integrantes: Najera Roman Roman
  */
 package examenequipouno;
-
+//21454654621321321
 import java.util.Scanner;
 
 public class ExamenEquipoUno {
